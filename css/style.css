@@ -98,6 +98,36 @@ nav .container {
 .banner__title {
     margin-bottom: 32px;
 }
-.banner__img img{
+
+.banner__img img {
     max-width: 100%;
+}
+
+/* ========= feature section ======== */
+#feature {
+    padding: 100px 0;
+}
+
+#feature .container {
+    display: flex;
+    gap: 73px;
+    align-items: center;
+}
+
+.feature__image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.feature__heading {
+    color: #727272;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: normal;
+    max-width: 467px;
+}
+.feature__des{
+    max-width: 537px;
+    margin: 24px 0 32px 0;
 }
