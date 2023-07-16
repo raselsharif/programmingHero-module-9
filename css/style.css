@@ -98,6 +98,6 @@ nav .container {
 .banner__title {
     margin-bottom: 32px;
 }
-.banner_img img{
-    width: 100%;
+.banner__img img{
+    max-width: 100%;
 }

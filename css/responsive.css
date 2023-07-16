@@ -1,0 +1,53 @@
+/* ========= XS device ======== */
+@media screen and (max-width: 575.98px) {
+
+    /* ======= header section ====== */
+
+    .logo__text {
+        font-size: 35px;
+    }
+
+    nav .container {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .menubar {
+        column-gap: 20px;
+    }
+
+
+    .banner__text {
+        margin: 50px auto 50px auto;
+    }
+
+    .banner__heading {
+        font-size: 34px;
+        margin-bottom: 10px;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 992px){
+
+    /* ======= header section ====== */
+
+    .logo__text {
+        font-size: 35px;
+    }
+
+    nav .container {
+        flex-direction: column;
+        row-gap: 25px;
+    }
+
+    .menubar {
+        column-gap: 25px;
+    }
+    .banner__text {
+        margin: 50px auto 50px auto;
+    }
+
+    .banner__heading {
+        font-size: 64px;
+        margin-bottom: 10px;
+    }
+}
